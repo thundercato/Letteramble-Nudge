@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#171421">
+  <meta name="description" content="A little word arcade. Read the clue and nudge the alphabet reels into place in ten moves.">
+  <title>Letteramble Nudge</title>
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <main class="arcade">
+    <header class="topbar">
+      <a class="wordmark" href="./" aria-label="Letteramble Nudge home">Lette<span>ramble</span><small>THE BONUS ARCADE</small></a>
+      <button id="sound" class="quiet-button" type="button" aria-pressed="false" aria-label="Turn sound off">Sound on</button>
+    </header>
+    <section class="cabinet" aria-label="Letter Nudge game">
+      <div class="marquee"><span class="marquee-line"></span><h1>NUDGE<span class="title-dot">.</span></h1><span class="marquee-line"></span></div>
+      <p class="tagline">One clue. Ten nudges. Find your word.</p>
+      <div class="setup"><span id="reel-label">HOW MANY LETTERS?</span><div class="lengths" role="group" aria-labelledby="reel-label">
+        <button type="button" data-length="3" aria-pressed="false">3</button><button type="button" data-length="4" aria-pressed="false">4</button><button type="button" data-length="5" aria-pressed="true">5</button><button type="button" data-length="6" aria-pressed="false">6</button><button type="button" data-length="7" aria-pressed="false">7</button><button type="button" data-length="8" aria-pressed="false">8</button>
+      </div></div>
+      <div class="clue-display"><div class="display-meta"><span id="display-label">YOUR NEXT WORD AWAITS</span><span id="word-length">5 LETTERS</span></div><p id="clue">Loading the clue bank…</p></div>
+      <div id="reels" class="reels" role="group" aria-label="Letter reels"></div>
+      <div class="meter-row"><span>NUDGES LEFT</span><div id="pips" class="pips" aria-hidden="true"></div><strong id="remaining">10<span> / 10</span></strong></div>
+      <div class="actions"><button id="spin" class="spin-button" type="button" disabled><span id="spin-label">Loading…</span><span aria-hidden="true">↻</span></button><button id="give-up" class="quiet-button" type="button" disabled>Reveal word</button></div>
+      <p id="result" class="result" role="status" aria-live="polite">Choose your word length, then let the reels roll.</p>
+    </section>
+    <details class="instructions"><summary>How to play <span aria-hidden="true">+</span></summary><p>Spin to get a clue. Use the arrows above and below each reel to move one letter back or forwards through A–Z. Z wraps round to A. Each click costs one of your ten nudges.</p><p>Find the word before your nudges run out. Every puzzle starts within reach. There’s no timer, so take a moment to think.</p><p>Keyboard: Tab to a reel, then use ↑ or ↓. Use ← and → to move between reels. You can also swipe a reel up or down.</p></details>
+    <footer>A little side quest from <span>Letteramble</span></footer>
+    <noscript>This game needs JavaScript enabled to spin the reels.</noscript>
+  </main>
+</body>
+</html>

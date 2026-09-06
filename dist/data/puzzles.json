@@ -1,0 +1,727 @@
+{
+  "schemaVersion": 1,
+  "language": "en-GB",
+  "title": "Letteramble nudge game starter puzzles",
+  "puzzles": [
+    {
+      "id": "nudge-3-001",
+      "length": 3,
+      "answer": "ANT",
+      "clue": "Tiny insect that lives in a colony"
+    },
+    {
+      "id": "nudge-3-002",
+      "length": 3,
+      "answer": "BAT",
+      "clue": "Flying mammal that sleeps upside down"
+    },
+    {
+      "id": "nudge-3-003",
+      "length": 3,
+      "answer": "BEE",
+      "clue": "Honey-making insect"
+    },
+    {
+      "id": "nudge-3-004",
+      "length": 3,
+      "answer": "CAT",
+      "clue": "Pet that purrs"
+    },
+    {
+      "id": "nudge-3-005",
+      "length": 3,
+      "answer": "COW",
+      "clue": "Farm animal that moos"
+    },
+    {
+      "id": "nudge-3-006",
+      "length": 3,
+      "answer": "CUP",
+      "clue": "Small drinking vessel with a handle"
+    },
+    {
+      "id": "nudge-3-007",
+      "length": 3,
+      "answer": "DOG",
+      "clue": "Pet that barks"
+    },
+    {
+      "id": "nudge-3-008",
+      "length": 3,
+      "answer": "EGG",
+      "clue": "A hen lays this"
+    },
+    {
+      "id": "nudge-3-009",
+      "length": 3,
+      "answer": "FOX",
+      "clue": "Bushy-tailed animal with a cunning reputation"
+    },
+    {
+      "id": "nudge-3-010",
+      "length": 3,
+      "answer": "HAT",
+      "clue": "Something worn on your head"
+    },
+    {
+      "id": "nudge-3-011",
+      "length": 3,
+      "answer": "ICE",
+      "clue": "Frozen water"
+    },
+    {
+      "id": "nudge-3-012",
+      "length": 3,
+      "answer": "JAM",
+      "clue": "Fruity spread for toast"
+    },
+    {
+      "id": "nudge-3-013",
+      "length": 3,
+      "answer": "KEY",
+      "clue": "It fits into a lock"
+    },
+    {
+      "id": "nudge-3-014",
+      "length": 3,
+      "answer": "MAP",
+      "clue": "Shows roads and places"
+    },
+    {
+      "id": "nudge-3-015",
+      "length": 3,
+      "answer": "OWL",
+      "clue": "Bird famed for hooting"
+    },
+    {
+      "id": "nudge-3-016",
+      "length": 3,
+      "answer": "PIG",
+      "clue": "Farm animal that oinks"
+    },
+    {
+      "id": "nudge-3-017",
+      "length": 3,
+      "answer": "SEA",
+      "clue": "Salty water beside the beach"
+    },
+    {
+      "id": "nudge-3-018",
+      "length": 3,
+      "answer": "SUN",
+      "clue": "The star at the centre of our solar system"
+    },
+    {
+      "id": "nudge-3-019",
+      "length": 3,
+      "answer": "TEA",
+      "clue": "Drink brewed from leaves"
+    },
+    {
+      "id": "nudge-3-020",
+      "length": 3,
+      "answer": "WEB",
+      "clue": "A spider spins this"
+    },
+    {
+      "id": "nudge-4-001",
+      "length": 4,
+      "answer": "BELL",
+      "clue": "It rings when struck"
+    },
+    {
+      "id": "nudge-4-002",
+      "length": 4,
+      "answer": "BOAT",
+      "clue": "Small vessel for travelling on water"
+    },
+    {
+      "id": "nudge-4-003",
+      "length": 4,
+      "answer": "CAKE",
+      "clue": "Sweet treat with birthday candles"
+    },
+    {
+      "id": "nudge-4-004",
+      "length": 4,
+      "answer": "COAT",
+      "clue": "Outer layer worn in cold weather"
+    },
+    {
+      "id": "nudge-4-005",
+      "length": 4,
+      "answer": "DRUM",
+      "clue": "Instrument played by hitting it"
+    },
+    {
+      "id": "nudge-4-006",
+      "length": 4,
+      "answer": "DUCK",
+      "clue": "Bird that quacks"
+    },
+    {
+      "id": "nudge-4-007",
+      "length": 4,
+      "answer": "FISH",
+      "clue": "Animal with gills and fins"
+    },
+    {
+      "id": "nudge-4-008",
+      "length": 4,
+      "answer": "FORK",
+      "clue": "Pronged utensil for eating"
+    },
+    {
+      "id": "nudge-4-009",
+      "length": 4,
+      "answer": "FROG",
+      "clue": "Leaping amphibian that croaks"
+    },
+    {
+      "id": "nudge-4-010",
+      "length": 4,
+      "answer": "KITE",
+      "clue": "Flies on a string in the wind"
+    },
+    {
+      "id": "nudge-4-011",
+      "length": 4,
+      "answer": "LION",
+      "clue": "Big cat with a mane"
+    },
+    {
+      "id": "nudge-4-012",
+      "length": 4,
+      "answer": "MILK",
+      "clue": "White drink produced by cows"
+    },
+    {
+      "id": "nudge-4-013",
+      "length": 4,
+      "answer": "MOON",
+      "clue": "Earth's natural satellite"
+    },
+    {
+      "id": "nudge-4-014",
+      "length": 4,
+      "answer": "RAIN",
+      "clue": "Water falling from clouds"
+    },
+    {
+      "id": "nudge-4-015",
+      "length": 4,
+      "answer": "SHIP",
+      "clue": "Large vessel for ocean travel"
+    },
+    {
+      "id": "nudge-4-016",
+      "length": 4,
+      "answer": "SNOW",
+      "clue": "White flakes falling from the sky"
+    },
+    {
+      "id": "nudge-4-017",
+      "length": 4,
+      "answer": "SOCK",
+      "clue": "Clothing worn inside a shoe"
+    },
+    {
+      "id": "nudge-4-018",
+      "length": 4,
+      "answer": "STAR",
+      "clue": "Twinkling point in the night sky"
+    },
+    {
+      "id": "nudge-4-019",
+      "length": 4,
+      "answer": "TREE",
+      "clue": "Plant with a trunk and branches"
+    },
+    {
+      "id": "nudge-4-020",
+      "length": 4,
+      "answer": "WOLF",
+      "clue": "Wild canine that howls"
+    },
+    {
+      "id": "nudge-5-001",
+      "length": 5,
+      "answer": "APPLE",
+      "clue": "Fruit said to keep the doctor away"
+    },
+    {
+      "id": "nudge-5-002",
+      "length": 5,
+      "answer": "BREAD",
+      "clue": "Loaf sliced for sandwiches"
+    },
+    {
+      "id": "nudge-5-003",
+      "length": 5,
+      "answer": "CHAIR",
+      "clue": "A seat with a back"
+    },
+    {
+      "id": "nudge-5-004",
+      "length": 5,
+      "answer": "CLOCK",
+      "clue": "It shows the time"
+    },
+    {
+      "id": "nudge-5-005",
+      "length": 5,
+      "answer": "CLOUD",
+      "clue": "White or grey mass in the sky"
+    },
+    {
+      "id": "nudge-5-006",
+      "length": 5,
+      "answer": "DREAM",
+      "clue": "Story your mind creates while asleep"
+    },
+    {
+      "id": "nudge-5-007",
+      "length": 5,
+      "answer": "EARTH",
+      "clue": "The planet we live on"
+    },
+    {
+      "id": "nudge-5-008",
+      "length": 5,
+      "answer": "GHOST",
+      "clue": "Spooky spirit said to haunt houses"
+    },
+    {
+      "id": "nudge-5-009",
+      "length": 5,
+      "answer": "GRAPE",
+      "clue": "Small fruit used to make wine"
+    },
+    {
+      "id": "nudge-5-010",
+      "length": 5,
+      "answer": "HAPPY",
+      "clue": "The opposite of sad"
+    },
+    {
+      "id": "nudge-5-011",
+      "length": 5,
+      "answer": "HORSE",
+      "clue": "Animal ridden with a saddle"
+    },
+    {
+      "id": "nudge-5-012",
+      "length": 5,
+      "answer": "LEMON",
+      "clue": "Sour yellow citrus fruit"
+    },
+    {
+      "id": "nudge-5-013",
+      "length": 5,
+      "answer": "OCEAN",
+      "clue": "Vast body of salt water"
+    },
+    {
+      "id": "nudge-5-014",
+      "length": 5,
+      "answer": "PIANO",
+      "clue": "Musical instrument with black and white keys"
+    },
+    {
+      "id": "nudge-5-015",
+      "length": 5,
+      "answer": "QUEEN",
+      "clue": "Female monarch"
+    },
+    {
+      "id": "nudge-5-016",
+      "length": 5,
+      "answer": "ROBOT",
+      "clue": "Machine that carries out programmed tasks"
+    },
+    {
+      "id": "nudge-5-017",
+      "length": 5,
+      "answer": "SNAIL",
+      "clue": "Slow creature with a spiral shell"
+    },
+    {
+      "id": "nudge-5-018",
+      "length": 5,
+      "answer": "SPOON",
+      "clue": "Utensil for eating soup"
+    },
+    {
+      "id": "nudge-5-019",
+      "length": 5,
+      "answer": "TIGER",
+      "clue": "Striped big cat"
+    },
+    {
+      "id": "nudge-5-020",
+      "length": 5,
+      "answer": "ZEBRA",
+      "clue": "Black-and-white striped African animal"
+    },
+    {
+      "id": "nudge-6-001",
+      "length": 6,
+      "answer": "BANANA",
+      "clue": "Curved yellow fruit"
+    },
+    {
+      "id": "nudge-6-002",
+      "length": 6,
+      "answer": "BOTTLE",
+      "clue": "Container with a neck and a cap"
+    },
+    {
+      "id": "nudge-6-003",
+      "length": 6,
+      "answer": "BRIDGE",
+      "clue": "Structure carrying a road over a river"
+    },
+    {
+      "id": "nudge-6-004",
+      "length": 6,
+      "answer": "CANDLE",
+      "clue": "Wax stick with a flame"
+    },
+    {
+      "id": "nudge-6-005",
+      "length": 6,
+      "answer": "CARROT",
+      "clue": "Orange vegetable loved by rabbits"
+    },
+    {
+      "id": "nudge-6-006",
+      "length": 6,
+      "answer": "CASTLE",
+      "clue": "Fortified home with towers"
+    },
+    {
+      "id": "nudge-6-007",
+      "length": 6,
+      "answer": "CHEESE",
+      "clue": "Dairy food often grated on pasta"
+    },
+    {
+      "id": "nudge-6-008",
+      "length": 6,
+      "answer": "DOCTOR",
+      "clue": "Medical professional who treats illness"
+    },
+    {
+      "id": "nudge-6-009",
+      "length": 6,
+      "answer": "DONKEY",
+      "clue": "Long-eared animal that brays"
+    },
+    {
+      "id": "nudge-6-010",
+      "length": 6,
+      "answer": "DRAGON",
+      "clue": "Mythical beast that breathes fire"
+    },
+    {
+      "id": "nudge-6-011",
+      "length": 6,
+      "answer": "FOREST",
+      "clue": "Large area covered in trees"
+    },
+    {
+      "id": "nudge-6-012",
+      "length": 6,
+      "answer": "GARDEN",
+      "clue": "Place to grow flowers at home"
+    },
+    {
+      "id": "nudge-6-013",
+      "length": 6,
+      "answer": "ISLAND",
+      "clue": "Land surrounded by water"
+    },
+    {
+      "id": "nudge-6-014",
+      "length": 6,
+      "answer": "JUNGLE",
+      "clue": "Dense tropical forest"
+    },
+    {
+      "id": "nudge-6-015",
+      "length": 6,
+      "answer": "MONKEY",
+      "clue": "Primate often seen swinging through trees"
+    },
+    {
+      "id": "nudge-6-016",
+      "length": 6,
+      "answer": "PENCIL",
+      "clue": "Writing tool with an erasable graphite core"
+    },
+    {
+      "id": "nudge-6-017",
+      "length": 6,
+      "answer": "PLANET",
+      "clue": "Large round world orbiting a star"
+    },
+    {
+      "id": "nudge-6-018",
+      "length": 6,
+      "answer": "POCKET",
+      "clue": "Small pouch sewn into clothing"
+    },
+    {
+      "id": "nudge-6-019",
+      "length": 6,
+      "answer": "RABBIT",
+      "clue": "Long-eared animal that hops"
+    },
+    {
+      "id": "nudge-6-020",
+      "length": 6,
+      "answer": "WINTER",
+      "clue": "Coldest season of the year"
+    },
+    {
+      "id": "nudge-7-001",
+      "length": 7,
+      "answer": "BALLOON",
+      "clue": "Inflatable party decoration"
+    },
+    {
+      "id": "nudge-7-002",
+      "length": 7,
+      "answer": "BICYCLE",
+      "clue": "Pedal-powered vehicle with two wheels"
+    },
+    {
+      "id": "nudge-7-003",
+      "length": 7,
+      "answer": "BLANKET",
+      "clue": "Soft covering that keeps you warm"
+    },
+    {
+      "id": "nudge-7-004",
+      "length": 7,
+      "answer": "CHIMNEY",
+      "clue": "Smoke escapes through it on a roof"
+    },
+    {
+      "id": "nudge-7-005",
+      "length": 7,
+      "answer": "DOLPHIN",
+      "clue": "Sleek marine mammal with a beaklike snout"
+    },
+    {
+      "id": "nudge-7-006",
+      "length": 7,
+      "answer": "FEATHER",
+      "clue": "One of the light coverings on a bird"
+    },
+    {
+      "id": "nudge-7-007",
+      "length": 7,
+      "answer": "GIRAFFE",
+      "clue": "Very tall animal with a long neck"
+    },
+    {
+      "id": "nudge-7-008",
+      "length": 7,
+      "answer": "GLACIER",
+      "clue": "Huge mass of slowly moving ice"
+    },
+    {
+      "id": "nudge-7-009",
+      "length": 7,
+      "answer": "KITCHEN",
+      "clue": "Room where meals are cooked"
+    },
+    {
+      "id": "nudge-7-010",
+      "length": 7,
+      "answer": "LIBRARY",
+      "clue": "Place where you borrow books"
+    },
+    {
+      "id": "nudge-7-011",
+      "length": 7,
+      "answer": "OCTOPUS",
+      "clue": "Sea creature with eight arms"
+    },
+    {
+      "id": "nudge-7-012",
+      "length": 7,
+      "answer": "PANCAKE",
+      "clue": "Flat batter treat flipped in a pan"
+    },
+    {
+      "id": "nudge-7-013",
+      "length": 7,
+      "answer": "PENGUIN",
+      "clue": "Flightless seabird that waddles"
+    },
+    {
+      "id": "nudge-7-014",
+      "length": 7,
+      "answer": "POPCORN",
+      "clue": "Puffed cinema snack"
+    },
+    {
+      "id": "nudge-7-015",
+      "length": 7,
+      "answer": "RAINBOW",
+      "clue": "Arc of colours after rain"
+    },
+    {
+      "id": "nudge-7-016",
+      "length": 7,
+      "answer": "SAUSAGE",
+      "clue": "Meaty link served with mash"
+    },
+    {
+      "id": "nudge-7-017",
+      "length": 7,
+      "answer": "SHAMPOO",
+      "clue": "Liquid used to wash your hair"
+    },
+    {
+      "id": "nudge-7-018",
+      "length": 7,
+      "answer": "TRUMPET",
+      "clue": "Brass instrument with three valves"
+    },
+    {
+      "id": "nudge-7-019",
+      "length": 7,
+      "answer": "VOLCANO",
+      "clue": "Mountain that can erupt with lava"
+    },
+    {
+      "id": "nudge-7-020",
+      "length": 7,
+      "answer": "WHISTLE",
+      "clue": "High-pitched sound made by pursed lips"
+    },
+    {
+      "id": "nudge-8-001",
+      "length": 8,
+      "answer": "BACKPACK",
+      "clue": "Bag carried on your back"
+    },
+    {
+      "id": "nudge-8-002",
+      "length": 8,
+      "answer": "BIRTHDAY",
+      "clue": "Annual celebration of when you were born"
+    },
+    {
+      "id": "nudge-8-003",
+      "length": 8,
+      "answer": "BROCCOLI",
+      "clue": "Green vegetable with tree-like florets"
+    },
+    {
+      "id": "nudge-8-004",
+      "length": 8,
+      "answer": "CALENDAR",
+      "clue": "Chart of days, weeks and months"
+    },
+    {
+      "id": "nudge-8-005",
+      "length": 8,
+      "answer": "COMPUTER",
+      "clue": "Electronic device that runs software"
+    },
+    {
+      "id": "nudge-8-006",
+      "length": 8,
+      "answer": "CUPBOARD",
+      "clue": "Storage unit with doors and shelves"
+    },
+    {
+      "id": "nudge-8-007",
+      "length": 8,
+      "answer": "DINOSAUR",
+      "clue": "Prehistoric animal such as T. rex"
+    },
+    {
+      "id": "nudge-8-008",
+      "length": 8,
+      "answer": "ELEPHANT",
+      "clue": "Huge animal with a trunk"
+    },
+    {
+      "id": "nudge-8-009",
+      "length": 8,
+      "answer": "FOOTBALL",
+      "clue": "Sport played by kicking a ball into a goal"
+    },
+    {
+      "id": "nudge-8-010",
+      "length": 8,
+      "answer": "HOSPITAL",
+      "clue": "Place with wards for treating patients"
+    },
+    {
+      "id": "nudge-8-011",
+      "length": 8,
+      "answer": "KANGAROO",
+      "clue": "Australian animal that hops with a pouch"
+    },
+    {
+      "id": "nudge-8-012",
+      "length": 8,
+      "answer": "MUSHROOM",
+      "clue": "Fungus with a stalk and cap"
+    },
+    {
+      "id": "nudge-8-013",
+      "length": 8,
+      "answer": "NOTEBOOK",
+      "clue": "Book of pages for jotting things down"
+    },
+    {
+      "id": "nudge-8-014",
+      "length": 8,
+      "answer": "PASSWORD",
+      "clue": "Secret text used to sign in"
+    },
+    {
+      "id": "nudge-8-015",
+      "length": 8,
+      "answer": "SANDWICH",
+      "clue": "Filling between two slices of bread"
+    },
+    {
+      "id": "nudge-8-016",
+      "length": 8,
+      "answer": "SCISSORS",
+      "clue": "Two-bladed tool for cutting paper"
+    },
+    {
+      "id": "nudge-8-017",
+      "length": 8,
+      "answer": "SEAHORSE",
+      "clue": "Tiny fish with a curled tail and horse-like head"
+    },
+    {
+      "id": "nudge-8-018",
+      "length": 8,
+      "answer": "STARFISH",
+      "clue": "Sea creature typically shaped like a five-pointed star"
+    },
+    {
+      "id": "nudge-8-019",
+      "length": 8,
+      "answer": "SUITCASE",
+      "clue": "Travel case for clothes"
+    },
+    {
+      "id": "nudge-8-020",
+      "length": 8,
+      "answer": "UMBRELLA",
+      "clue": "Handheld cover that keeps rain off"
+    }
+  ]
+}
