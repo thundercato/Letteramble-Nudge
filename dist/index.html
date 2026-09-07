@@ -2,34 +2,50 @@
 <html lang="en-GB">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#171421">
-  <meta name="description" content="A little word arcade. Read the clue and nudge the alphabet reels into place in ten moves.">
-  <title>Letteramble Nudge</title>
-  <link rel="stylesheet" href="./style.css">
-  <script type="module" src="./app.js"></script>
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f5efe3">
+  <meta name="description" content="Agent Letteramble, your next case awaits. Spin the letter locks, call in a clue and crack the case in this little spy arcade.">
+  <title>Crack the Case · Letteramble</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23182a35'/%3E%3Ctext x='32' y='47' text-anchor='middle' font-family='Georgia' font-weight='bold' font-size='48' fill='%23f6bd70'%3EC%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./style.css?v=2">
+  <script type="module" src="./app.js?v=2"></script>
 </head>
 <body>
-  <main class="arcade">
+  <div class="shell">
     <header class="topbar">
-      <a class="wordmark" href="./" aria-label="Letteramble Nudge home">Lette<span>ramble</span><small>THE BONUS ARCADE</small></a>
-      <button id="sound" class="quiet-button" type="button" aria-pressed="false" aria-label="Turn sound off">Sound on</button>
+      <a class="wordmark" href="./" aria-label="Letteramble bonus arcade">Lette<span>ramble</span><small>BONUS ARCADE</small></a>
+      <div class="header-tools"><button id="help-button" type="button" class="icon-button" aria-label="How to play">?</button><button id="sound" type="button" class="sound-button" aria-pressed="false">Sound on</button></div>
     </header>
-    <section class="cabinet" aria-label="Letter Nudge game">
-      <div class="marquee"><span class="marquee-line"></span><h1>NUDGE<span class="title-dot">.</span></h1><span class="marquee-line"></span></div>
-      <p class="tagline">One clue. Ten nudges. Find your word.</p>
-      <div class="setup"><span id="reel-label">HOW MANY LETTERS?</span><div class="lengths" role="group" aria-labelledby="reel-label">
-        <button type="button" data-length="3" aria-pressed="false">3</button><button type="button" data-length="4" aria-pressed="false">4</button><button type="button" data-length="5" aria-pressed="true">5</button><button type="button" data-length="6" aria-pressed="false">6</button><button type="button" data-length="7" aria-pressed="false">7</button><button type="button" data-length="8" aria-pressed="false">8</button>
-      </div></div>
-      <div class="clue-display"><div class="display-meta"><span id="display-label">YOUR NEXT WORD AWAITS</span><span id="word-length">5 LETTERS</span></div><p id="clue">Loading the clue bank…</p></div>
-      <div id="reels" class="reels" role="group" aria-label="Letter reels"></div>
-      <div class="meter-row"><span>NUDGES LEFT</span><div id="pips" class="pips" aria-hidden="true"></div><strong id="remaining">10<span> / 10</span></strong></div>
-      <div class="actions"><button id="spin" class="spin-button" type="button" disabled><span id="spin-label">Loading…</span><span aria-hidden="true">↻</span></button><button id="give-up" class="quiet-button" type="button" disabled>Reveal word</button></div>
-      <p id="result" class="result" role="status" aria-live="polite">Choose your word length, then let the reels roll.</p>
-    </section>
-    <details class="instructions"><summary>How to play <span aria-hidden="true">+</span></summary><p>Spin to get a clue. Use the arrows above and below each reel to move one letter back or forwards through A–Z. Z wraps round to A. Each click costs one of your ten nudges.</p><p>Find the word before your nudges run out. Every puzzle starts within reach. There’s no timer, so take a moment to think.</p><p>Keyboard: Tab to a reel, then use ↑ or ↓. Use ← and → to move between reels. You can also swipe a reel up or down.</p></details>
-    <footer>A little side quest from <span>Letteramble</span></footer>
-    <noscript>This game needs JavaScript enabled to spin the reels.</noscript>
-  </main>
+    <main>
+      <section id="selection" class="screen selection" aria-labelledby="selection-title">
+        <div class="intro"><div><p class="eyebrow"><span class="signal"></span> LETTERAMBLE INTELLIGENCE DIVISION</p><h1 id="selection-title">Crack the <em>case.</em></h1><p class="intro-copy">Six cases. One sharp agent.<br>Pick a lock. Find the word. Claim the loot.</p></div><div class="agent-stamp" aria-hidden="true"><span>TOP</span><strong>SECRET</strong><small>EYES ONLY</small></div></div>
+        <div class="desk-heading"><h2>Your next assignment</h2><span>CHOOSE A CASE</span></div>
+        <p id="loading" role="status">Field Control is preparing your cases…</p>
+        <div id="case-grid" class="case-grid"></div>
+        <div class="agent-record"><div><span class="record-label">YOUR FIELD RECORD</span><strong id="record-caption">Every agent starts somewhere.</strong></div><div class="record-stat"><strong id="total-cases">0</strong><span>cases cracked</span></div><div class="record-stat"><strong id="total-points">0</strong><span>total points</span></div></div>
+        <p class="selection-note">No countdown. No move limit. Just a word between you and the loot.</p>
+      </section>
+      <section id="mission" class="screen mission" aria-labelledby="mission-title" hidden>
+        <div class="mission-nav"><button id="back" class="text-button" type="button">← All cases</button><span id="case-ref">CASE FILE 05</span><button id="mission-help" class="text-button" type="button">Briefing</button></div>
+        <div class="mission-heading"><div><p class="eyebrow">YOUR MISSION, AGENT LETTERAMBLE</p><h1 id="mission-title">The silent briefcase.</h1></div><div class="timer"><span>TIME ON CASE</span><strong id="timer">00:00</strong></div></div>
+        <aside id="comms" class="comms" aria-label="Field Control messages"><div class="control-avatar" aria-hidden="true">FC</div><div class="message"><div class="message-meta"><strong>FIELD CONTROL</strong><span id="message-tag">SECURE LINE</span></div><p id="message-copy">Have you cracked that case yet, Agent? There’s a word in that lock. I’ll be here if you need a little intel.</p><p id="hint-copy" hidden></p></div></aside>
+        <div id="case-stage" class="case-stage">
+          <div class="stage-top"><span id="stage-label">SECURED · FIVE-LETTER LOCK</span><span class="stage-mark" aria-hidden="true">L / R</span></div>
+          <img id="mission-case" class="mission-case" src="./assets/case-closed.png" alt="" draggable="false">
+          <div id="lock-panel" class="lock-panel"><div class="lock-top"><span>ALIGN THE CODE</span><span id="lock-status">LOCKED</span></div><div id="wheels" class="wheels" role="group" aria-label="Combination lock"></div><div class="lock-bottom"><span id="code-readout" aria-hidden="true">• • • • •</span><span>FIVE LETTERS PER WHEEL</span></div></div>
+          <p class="stage-instruction">Swipe the wheels. Follow your hunch.</p>
+          <div id="celebration" class="celebration" aria-hidden="true"></div>
+        </div>
+        <div id="mission-controls" class="mission-controls"><button id="unlock" class="primary-button" type="button"><span aria-hidden="true">◇</span> Try the lock</button><button id="hint" class="hint-button" type="button">Request intel <small>Hint · half points</small></button></div>
+        <div id="feedback" class="feedback" role="status" aria-live="polite">Find the hidden word, then try the lock.</div>
+        <div id="reward" class="reward" hidden tabindex="-1"><p class="eyebrow">MISSION ACCOMPLISHED</p><h2>Case closed.<br><em>Well, opened.</em></h2><div class="reward-line"><strong id="reward-points">+10</strong><span id="reward-medal">GOLD MEDAL</span></div><p id="reward-detail"></p><button id="next-case" class="primary-button" type="button">Another assignment <span aria-hidden="true">↗</span></button></div>
+        <div id="medal-guide" class="medal-guide"><span>GOLD <b>&lt; 5 min</b></span><span>SILVER <b>&lt; 10 min</b></span><span>BRONZE <b>10+ min</b></span></div>
+      </section>
+    </main>
+    <footer><span>A LITTLE LETTERAMBLE SIDE MISSION</span><span>EST. 2026 <span aria-hidden="true">✦</span></span></footer>
+  </div>
+  <dialog id="help-dialog" aria-labelledby="help-title"><button type="button" class="dialog-close" aria-label="Close briefing">×</button><p class="eyebrow">AGENT’S HANDBOOK</p><h2 id="help-title">A brief case briefing.</h2><ol><li><strong>Choose your case.</strong> The number tells you how many letters are in its secret word.</li><li><strong>Work the lock.</strong> Each wheel has five consecutive letters that loop. Swipe up or down, drag with a mouse, or tap the upper or lower letters. No arrows. No move limit.</li><li><strong>Try your code.</strong> Nothing happens until you press Try the lock. Wrong guesses just rattle the lock. Keep going.</li><li><strong>Call Field Control.</strong> Request intel for a clue. It halves your points once, not every time you read it.</li></ol><div class="scoring-table"><div><strong>Gold</strong><span>Under 5 minutes</span><b>10 points</b></div><div><strong>Silver</strong><span>5–10 minutes</span><b>6 points</b></div><div><strong>Bronze</strong><span>10 minutes or more</span><b>4 points</b></div></div><p>There’s no deadline. Hints halve points, not your medal. Time runs from opening a case, including time away. Your case and field record are saved on this device when browser storage is available.</p><p class="small-copy">Keyboard: Tab to a wheel, use ↑/↓ to turn it and ←/→ to change wheels. Enter tries the lock. A wheel can wrap through Z and A, but always loops through its own five letters.</p><button type="button" class="primary-button dialog-done">Understood, Control.</button></dialog>
+  <dialog id="switch-dialog" aria-labelledby="switch-title"><p class="eyebrow">NEW ASSIGNMENT</p><h2 id="switch-title">Leave this case behind?</h2><p>You have an unfinished case. Starting another replaces it. You can go back to it instead.</p><div class="dialog-actions"><button type="button" id="keep-case" class="hint-button">Keep my case</button><button type="button" id="replace-case" class="primary-button">Start new case</button></div></dialog>
+  <noscript>Agent, this game needs JavaScript enabled to work its locks.</noscript>
 </body>
 </html>
