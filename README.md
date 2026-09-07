@@ -50,3 +50,9 @@ The clue file contains 120 hand-authored word/clue pairs in UK English, with sta
 ## Validation and limitations
 
 The source and game logic have automated checks. Real-device Safari audio, swipe behaviour and visual layout still need hands-on playtesting. Haptics are reserved for a future native version. No analytics, advertising, third-party fonts or remote runtime services are used.
+
+## Agent workflow and storage
+
+Read [AGENTS.md](AGENTS.md) before work. Effective 7 September 2026, local testing remains the default. Do not introduce hosted builds, paid services, automatic retries or routine diagnostic uploads without explicit approval. Newly approved optional diagnostic archives should expire after one day unless another duration is agreed.
+
+Existing Pages publishing is preserved. The root forwarding page and `dist/` are intentional game delivery files and must not be removed as disposable Actions artefacts. This housekeeping changes no game logic, site address, tests or release version, and it claims no new device acceptance.
